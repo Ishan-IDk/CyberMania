@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@font-face {
+    font-family: "Druk Wide Bold";
+    src: url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot");
+    src: url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.svg#Druk Wide Bold")format("svg");
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: blue;
+    width: 10px;
+}
+body{
+    margin:0;
+    padding: 0;
+    background: #101010;
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+}
+nav{
+    display: flex;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 160px;
+    z-index: 100000000;
+}
+nav h1 img{
+    width: 8rem;
+    height: 8rem;
+    z-index: 10000000;
+    position: relative;
+    margin-left: 20px;
+}
+nav h1 .img2{
+    width: 7.3rem;
+    height: 7.3rem;
+    z-index: 1000000000;
+    position: relative;
+    margin-right: 20px;
+}
+/* nav ul{
+    display: flex;
+    margin-right: 50px;
+    border: 2px solid white;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px #FFFBFB;
+}
+nav ul li{
+    display: flex;
+    padding-right: 1px;
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+nav ul li a{
+    display: flex;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 19.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.3s ease-in-out;
+    text-rendering: auto;
+}
+a:hover{
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: crimson;
+} */
+
+
+/* Loader */
+.load {
+    background: black;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+}
+  
+.load h2 {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 3px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+  
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    background: black;
+  
+}
+.page-container {
+    display: contents;
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width: 769px){
+    .description-text{
+        font-size: 26px;
+        
+    }
+    nav h1 img{
+        width: 5rem;
+        height: 5rem;
+    }
+    nav h1 .img2{
+        width: 5rem;
+        height: 5rem;
+    }
+}

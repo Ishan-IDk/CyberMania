@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@font-face {
+  font-family: "Druk Wide Bold";
+  src: url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot");
+  src: url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.svg#Druk Wide Bold")format("svg");
+}
+@font-face {
+  font-family: "Druk Wide Bold";
+  src: url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot");
+  src: url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.svg#Druk Wide Bold")format("svg");
+}
+
+html {
+  font-family: 'Montserrat';
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0;
+  overflow-y: hidden;
+}
+
+
+
+.section.full-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.section.full-height.dark {
+  overflow: hidden;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #08181f, #041116);
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+  color: #fff;
+}
+
+.hero-text-main {
+  position: absolute;
+  opacity: 0.85;
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+  -webkit-transition: text-shadow 200ms ease;
+  transition: text-shadow 200ms ease;
+  font-family: 'Druk Wide Bold';
+  color: #d4f6f9;
+  font-size: 8rem;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 0 0 19px rgba(34, 129, 153, 0.41), 0 0 7px rgba(212, 246, 249, 0.84);
+}
+
+.hero-text-main:hover {
+  text-shadow: 0 0 19px rgba(34, 129, 153, 0.89), 0 0 8px #d4f6f9;
+}
+
+.control-3d {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-text-mid {
+  position: absolute;
+  background-image: url("https://assets.website-files.com/60270f1e509c08cd60591795/6027eb5fa1e9889b01a227ea_Air-force-final-fast.gif");
+  background-position: 50% 50%;
+  background-size: 23px;
+  opacity: 0.5;
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+  -webkit-transform: translate3d(0px, 0px, -100px);
+  transform: translate3d(0px, 0px, -100px);
+  font-family:'Druk Wide Bold';
+  font-size: 8rem;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.hero-text-back {
+  position: absolute;
+  opacity: 0.2;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  -webkit-transform: translate3d(0px, 0px, -200px);
+  transform: translate3d(0px, 0px, -200px);
+  font-family: 'Druk Wide Bold';
+  font-size: 8rem;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.text-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: scale3d(1none, 1none, 1none);
+  transform: scale3d(1none, 1none, 1none);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  text-align: center;
+  margin-bottom: 73px;
+  margin-top: 60px;
+}
+
+.description-text {
+  margin-top: 60px;
+  margin-bottom: 90px;
+  opacity: 0.64;
+  -webkit-transform: translate3d(0px, 0px, -100px);
+  transform: translate3d(0px, 0px, -100px);
+  font-family: 'Montserrat';
+  color: #d4f6f9;
+  font-size: 50px;
+  line-height: 26px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.button {
+  margin-bottom: 40px;
+  padding: 10px 42px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d4f6f9;
+  border-radius: 3px;
+  background-color: transparent;
+  box-shadow: 0 0 6px 0 rgba(212, 246, 249, 0.27), inset 0 0 7px 0 rgba(212, 246, 249, 0.88);
+  opacity: 0.7;
+  -webkit-transition: opacity 500ms ease, box-shadow 500ms ease, -webkit-transform 500ms ease;
+  transition: opacity 500ms ease, box-shadow 500ms ease, -webkit-transform 500ms ease;
+  transition: opacity 500ms ease, transform 500ms ease, box-shadow 500ms ease;
+  transition: opacity 500ms ease, transform 500ms ease, box-shadow 500ms ease, -webkit-transform 500ms ease;
+  font-family: 'Montserrat';
+  color: #d4f6f9;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-indent: 4px;
+  text-transform: uppercase;
+  text-shadow: 0 0 4px rgba(212, 246, 249, 0.47);
+  text-decoration: none;
+  text-align: center;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px 0 rgba(212, 246, 249, 0.24), inset 0 0 17px 0 rgba(212, 246, 249, 0.89);
+  opacity: 0.88;
+  -webkit-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.lottie-wrap {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 120vw;
+  height: 110vh;
+  margin-top: -20vh;
+  margin-bottom: -14vh;
+  margin-left: -10vw;
+  opacity: 0.07;
+  -webkit-transform: translate3d(0px, 0px, -1000px);
+  transform: translate3d(0px, 0px, -1000px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.lottie-wrap.near {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-transform: translate3d(0px, 0px, 350px);
+  transform: translate3d(0px, 0px, 350px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.lottie-wrap.mid {
+  -webkit-transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg) translate(0px, 0px);
+  transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg) translate(0px, 0px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.lottie {
+  width: 100%;
+  height: 100%;
+}
+
+.inline-link {
+  border-bottom: 1px solid rgba(212, 246, 249, 0);
+  -webkit-transition: border-color 200ms ease, letter-spacing 200ms ease, text-shadow 200ms ease;
+  transition: border-color 200ms ease, letter-spacing 200ms ease, text-shadow 200ms ease;
+  color: #d4f6f9;
+  text-decoration: none;
+}
+
+.inline-link:hover {
+  border-bottom-color: #d4f6f9;
+}
+
+.link {
+  color: #d4f6f9;
+}
+
+.footer-para {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  max-width: 60ch;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0.28;
+  font-family: Montserrat, sans-serif;
+  color: #d4f6f9;
+  font-size: 9px;
+  line-height: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.last-letter {
+  letter-spacing: 0px;
+}
+
+.sub-head {
+  margin-bottom: 10px;
+}
+
+.sub-head.byline {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.divider-line {
+  width: 100%;
+  height: 1px;
+  margin: 20px auto;
+  background-color: #d4f6f9;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-text-main {
+    font-size: 10vw;
+  }
+
+  .hero-text-mid {
+    font-size: 10vw;
+  }
+
+  .hero-text-back {
+    font-size: 10vw;
+  }
+}
