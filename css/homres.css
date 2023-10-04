@@ -99,7 +99,7 @@
     }
 }
 
-@media screen and (max-width:430px){
+@media screen and (max-width:571px){
     .mamimg{
         height: 26vh !important;
         width: 60% !important;
